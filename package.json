@@ -1,0 +1,15 @@
+{
+  "name": "clima",
+  "version": "1.0.0",
+  "description": "App para ver el clima en un ciudad determinada en consola usando Node.js o por defecto en Buenos Aires",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Venegas",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "yargs": "^13.2.2"
+  }
+}
