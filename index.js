@@ -1,7 +1,7 @@
 const request = require('request');
 const argv = require('yargs').argv;
 
-let apiKey = 'e89338f450b86b63f22a881a69a380c1';
+let apiKey = '******************************'; //API oculta por seguridad, proximamente va a ser agregada de forma segura
 let city = argv.c || 'Buenos Aires';
 let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
 
